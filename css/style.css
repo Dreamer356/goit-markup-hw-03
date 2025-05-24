@@ -283,3 +283,7 @@ ul {
   font-size: 14px;
   color: #e7e9fc;
 }
+
+img {
+  display: block;
+}
