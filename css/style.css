@@ -225,8 +225,8 @@ ul {
 
 .team-title {
   margin-bottom: 72px;
-  text-transform: none; /* просто для контроля */
-  font-weight: 700; /* по макету */
+  text-transform: none; 
+  font-weight: 700; 
 }
 
 .team-list {
@@ -317,4 +317,8 @@ ul {
 
 img {
   display: block;
+}
+
+.team-list .team-member:first-child {
+  border-radius: 0 0 4px 4px;
 }
