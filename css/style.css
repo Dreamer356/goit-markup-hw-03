@@ -55,6 +55,7 @@ ul {
   color: #4d5ae5;
   text-decoration: none;
   margin-right: 76px;
+  display: inline-block;
 }
 
 .logo .studio {
@@ -169,7 +170,7 @@ ul {
   text-align: center;
 }
 
-.portfolio-title {
+.section-title {
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 64px;
@@ -220,12 +221,6 @@ ul {
   text-align: center;
 }
 
-.team-title {
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 64px;
-}
-
 .team-list {
   display: flex;
   flex-wrap: wrap;
@@ -266,15 +261,16 @@ ul {
   padding: 40px 20px;
 }
 
-.footer-link {
+.footer .logo {
   color: #4d5ae5;
   font-weight: 700;
   font-size: 24px;
   text-decoration: none;
-  
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
-.footer-link span {
+.footer .logo span {
   color: #fff;
 }
 
