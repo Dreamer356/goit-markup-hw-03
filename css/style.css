@@ -165,7 +165,7 @@ ul {
 
 .portfolio-section {
   padding: 120px 20px;
-  background-color: #f8f9ff;
+  background: #fff;  
   text-align: center;
 }
 
@@ -216,7 +216,7 @@ ul {
 
 .team-section {
   padding: 120px 20px;
-  background: #fff;
+  background-color: #f8f9ff;  
   text-align: center;
 }
 
