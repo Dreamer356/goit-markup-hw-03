@@ -228,17 +228,13 @@ ul {
 
 .team-list {
   display: flex;
-  flex-wrap: wrap;
+  gap: 40px;
   justify-content: center;
-  gap: 24px;
+  flex-wrap: wrap;
 }
 
 .team-member {
-  background: #fff;
-  padding: 16px;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  width: 264px;
+  max-width: 265px;
 }
 
 .team-member img {
@@ -263,6 +259,7 @@ ul {
 .footer {
   background-color: #2e2f42;
   color: #fff;
+  text-align: center;
   padding: 40px 20px;
 }
 
@@ -271,7 +268,6 @@ ul {
   font-weight: 700;
   font-size: 24px;
   text-decoration: none;
-  
 }
 
 .footer-link span {
@@ -279,7 +275,10 @@ ul {
 }
 
 .footer-text {
-  max-width: 300px;
-  font-size: 14px;
-  color: #e7e9fc;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 8px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
