@@ -267,14 +267,17 @@ ul {
 .footer {
   background-color: #2e2f42;
   color: #fff;
-  padding: 40px 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-link {
+  display: inline-block;
   color: #4d5ae5;
   font-weight: 700;
   font-size: 24px;
   text-decoration: none;
+  margin-bottom: 16px;
   
 }
 
