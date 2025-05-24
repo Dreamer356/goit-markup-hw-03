@@ -219,23 +219,47 @@ ul {
 }
 
 .team-section {
-  padding: 120px 20px;
-  background-color: #f8f9ff;  
-  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-title {
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 64px;
+  margin-bottom: 72px;
+  text-transform: none; /* просто для контроля */
+  font-weight: 700; /* по макету */
 }
 
 .team-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   gap: 24px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
+
+.team-member {
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0 0 4px 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.member-info {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.member-name {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.member-position {
+  text-align: center;
+  margin: 0;
+}
+
 
 .team-member {
   background: #fff;
