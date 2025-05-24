@@ -43,6 +43,71 @@ ul {
   z-index: 1000;
 }
 
+.page-header > .container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #4d5ae5;
+  text-decoration: none;
+  margin-right: 76px;
+}
+
+.logo .studio {
+  color: #2e2f42;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 24px 0;
+  font-weight: 500;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.contact-info {
+  /* можно оставить для семантики */
+}
+
+.contacts-list {
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-link {
+  font-weight: 400;
+  color: #434455;
+  text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -287,6 +352,7 @@ ul {
   font-size: 14px;
   color: #e7e9fc;
 }
+
 img {
   display: block;
 }
