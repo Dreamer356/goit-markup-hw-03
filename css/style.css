@@ -108,7 +108,7 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin: 0 auto 32px;
-  max-width: 800px;
+  max-width: 496px;
 }
 
 .button-primary {
@@ -121,7 +121,11 @@ ul {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  display: inline-block;
+  display: block; 
+  margin: 0 auto; 
+  min-width: 169px; 
+  height: 56px; 
+
 }
 
 .button-primary:hover,
