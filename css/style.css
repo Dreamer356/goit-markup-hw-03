@@ -27,7 +27,7 @@ ul {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -67,7 +67,6 @@ ul {
   color: #2e2f42;
 }
 
-/* Меню */
 .nav-list {
   display: flex;
   gap: 40px;
@@ -148,7 +147,7 @@ ul {
 }
 
 .container {
-  max-width: 1200px; /* пример, можно подстроить */
+  max-width: 1200px; 
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -162,22 +161,21 @@ ul {
 }
 
 .feature-item {
-  width: calc((100% - 72px) / 4); /* 4 пункта, 3 промежутка по 24px */
+  width: calc((100% - 72px) / 4); 
 }
 
 .feature-title {
   margin-bottom: 8px;
-  font-weight: bold; /* по желанию */
-  font-size: 1.2rem; /* пример */
+  font-weight: bold; 
+  font-size: 1.2rem; 
 }
 
 .feature-text {
   margin: 0;
-  font-size: 1rem; /* пример */
+  font-size: 1rem; 
   color: #333;
 }
 
-/* Класс для скрытого заголовка */
 .visually-hidden {
   position: absolute !important;
   width: 1px !important;
