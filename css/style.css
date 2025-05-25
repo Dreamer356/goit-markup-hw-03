@@ -147,6 +147,7 @@ ul {
 }
 
 .features-list {
+  margin-bottom: 48px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -155,7 +156,12 @@ ul {
 }
 
 .feature-item {
+  margin-bottom: 48px;
   width: calc((100% - 72px) / 4); 
+}
+
+.feature-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 
 .feature-title {
