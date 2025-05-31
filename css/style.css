@@ -32,6 +32,10 @@ ul {
   padding: 0 15px;
 }
 
+.features-section .container {
+  padding: 32px 16px;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
