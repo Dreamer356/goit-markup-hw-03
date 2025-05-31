@@ -177,6 +177,10 @@ ul {
   text-align: center;
 }
 
+.portfolio-title {
+  margin-bottom: 72px;
+}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
