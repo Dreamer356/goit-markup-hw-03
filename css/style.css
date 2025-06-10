@@ -43,11 +43,18 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .page-header {
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
+  width: 1440px;
+  height: 72px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center; 
+  box-sizing: border-box;
 }
 
 .main-nav {
@@ -189,6 +196,7 @@ ul {
 }
 
 .portfolio-list {
+  row-gap: 48px;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
