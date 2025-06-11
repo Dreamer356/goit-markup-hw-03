@@ -143,7 +143,8 @@ img {
   cursor: pointer;
   transition: background-color 0.3s;
   min-width: 169px;
-  display: inline-block;
+  display: block;         
+  margin: 0 auto;        
 }
 
 .button-primary:hover,
